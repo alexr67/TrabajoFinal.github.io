@@ -1,0 +1,145 @@
+/* Reset de estilos por defecto */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Estilos para la estructura de la página */
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.left, .right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.box {
+  flex: 1;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Estilos para el cuadro de iconos */
+.icon-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 45px;
+}
+
+.icon {
+  width: 200px;
+  height: 15px;
+  margin-right: 5px;
+  background-color: black;
+  text-align: center;
+  line-height: 30px;
+  color: yellow;
+  border-radius: 50%;
+  border: none;
+}
+
+/* Estilos para los cuadros de texto */
+.white-box {
+  background-color: white;
+  color: black;
+}
+
+.black-box {
+  background-color: black;
+  color: white;
+}
+
+/* Estilos para el cuadro de habilidades */
+.yellow-box {
+  background-color: yellow;
+  color: black;
+}
+
+/* Estilos para la foto */
+.photo-box {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.photo {
+  width: 450px;
+  height: 275px;
+  object-fit: cover;
+}
+
+/* Estilos para el cuadro de nombre vertical */
+.vertical-name-box {
+  width: 450px;
+  height: 275px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-text {
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  color: yellow;
+}
+
+/* Estilos para la biografía */
+.bio {
+  text-align: center;
+}
+
+/* Estilos para títulos */
+h1 {
+  margin-top: 0;
+}
+
+h2 {
+  margin: 10px 0;
+  text-align: left;
+  margin-left: 20px;
+  color: black;
+}
+h3{
+  margin-left: 20px;
+  text-align: left;
+  color: white;
+
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+  text-align: justify;
+}
+
+/* Estilos para puntos juntos */
+.disc-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.disc-list li::before {
+  content: "\2022";
+}
+#contactowhatsapp{
+  width: 64px;
+  position: fixed;
+  right: 30px;
+  bottom: 20px;
+}
